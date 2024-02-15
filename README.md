@@ -11,4 +11,4 @@ A puzzle game that centers around a bunny breaking out of prison, where the user
 We hope to make this project a fun and relaxing game for people of all ages who enjoy solving puzzles with cute characters and an interesting storyline. We strive to achieve the good feeling that one experiences after solving a problem, paired with the adorable bunny and his prison-buddies to create an enjoyable gaming session.
 
 ## GUI
-![GUI](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunnyPrison%20UML.png)
