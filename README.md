@@ -1,5 +1,5 @@
 # BunnyPrisonGame
-A puzzle game that centers around a bunny breaking out of prison, where the user solves three different puzzles (a maze, a memory game, and a sliding puzzle) in order to escape the prison.
+Bunny Break: a puzzle game that centers around a bunny breaking out of prison, where the user solves three different puzzles (a maze, a memory game, and a sliding puzzle) in order to escape the prison.
 
 ## Members
 - Elisa: project manager
