@@ -17,3 +17,4 @@ We hope to make this project a fun and relaxing game for people of all ages who 
 ![Mafia Bird GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/MafiaBird.png)
 
 ![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BackgroundPix.png)
+![Bunny Idle GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Bunny%20Idle%20.gif)
