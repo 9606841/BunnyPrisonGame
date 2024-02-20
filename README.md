@@ -14,4 +14,4 @@ We hope to make this project a fun and relaxing game for people of all ages who 
 ![UML](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunnyPrison%20UML.png)
 
 ## GUI
-![GUI]()
+![Mafia Bird GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/MafiaBird.png)
