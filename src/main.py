@@ -1,5 +1,5 @@
 import pygame
-from pygame.constants import KEYDOWN, KEYUP
+#from pygame.constants import KEYDOWN, KEYUP
 #from Bunny import Bunny
 
 pygame.init()
@@ -15,14 +15,20 @@ pygame.display.flip()
 
 running = True
 while running:
-
-  if pygame.key.get_pressed()[pygame.K_SPACE] and pygame.KEYDOWN:
+  if pygame.key.get_pressed()[pygame.K_SPACE]:
     gameStart = True
-    print('Game Starting')
-    c2 = (0, 0, 0)
-    pygame.draw.rect(screen, c2, pygame.Rect(60, 60, 60, 60))
-    pygame.display.flip()
 
+  if gameStart == True:
+    print('Game Starting')
+    #c2 = (0, 0, 0)
+    #pygame.display.flip()
+    bg = pygame.image.load('PrisonBg.png')
+    bg = pygame.transform.scale(bg, (500, 250))
+    screen.blit(bg, (0, 0))
+    pygame.display.flip()
+    
+    #instantiate bunny class & first minigame
+  
   else:
     color = (255, 255, 255)
     screen.fill(color)
