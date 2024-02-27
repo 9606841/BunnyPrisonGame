@@ -10,7 +10,7 @@ REPL LINK FOR ANYONE WHO NEEDS IT: [https://replit.com/join/ftbcahgeuu-408419v](
 - Kate & Emily: programmer
 
 ## Project Objective
-We hope to make this project a fun and relaxing game for people of all ages who enjoy solving puzzles with cute characters and an interesting storyline. We strive to achieve the good feeling that one experiences after solving a problem, paired with the adorable bunny and his prison-buddies to create an enjoyable gaming session.
+We hope to make this project a fun and relaxing game for people of all ages and backgrounds who enjoy solving puzzles with cute characters and an interesting storyline. We strive to achieve the good feeling that one experiences after solving a problem, paired with the adorable bunny and his prison-buddies to create an enjoyable gaming session for all players.
 
 ## UML
 ![UML](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunnyPrison%20UML.png)
