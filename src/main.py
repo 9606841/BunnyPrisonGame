@@ -23,13 +23,10 @@ while running:
     pygame.draw.rect(screen, c2, pygame.Rect(60, 60, 60, 60))
     pygame.display.flip()
 
-  elif pygame.key.get_pressed()[pygame.K_SPACE] and pygame.KEYUP:
+  else:
     color = (255, 255, 255)
     screen.fill(color)
     pygame.display.flip()
-
-  else:
-    pass
 
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
