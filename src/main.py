@@ -26,6 +26,7 @@ while running:
   elif pygame.key.get_pressed()[pygame.K_SPACE] and pygame.KEYUP:
     color = (255, 255, 255)
     screen.fill(color)
+    pygame.display.flip()
 
   else:
     pass
