@@ -1,6 +1,6 @@
 import pygame
+#from bunny import Bunny
 #from pygame.constants import KEYDOWN, KEYUP
-#from Bunny import Bunny
 
 pygame.init()
 
@@ -9,7 +9,7 @@ pygame.display.set_caption('Bunny Break')
 color = (255, 255, 255)
 screen.fill((color))
 gameStart = False
-#bunny = Bunny
+#b = Bunny(250, 125, 0, False)
 
 pygame.display.flip()
 
@@ -19,16 +19,16 @@ while running:
     gameStart = True
 
   if gameStart == True:
-    print('Game Starting')
     #c2 = (0, 0, 0)
     #pygame.display.flip()
     bg = pygame.image.load('PrisonBg.png')
     bg = pygame.transform.scale(bg, (500, 250))
     screen.blit(bg, (0, 0))
+    #b.display
     pygame.display.flip()
     
     #instantiate bunny class & first minigame
-  
+
   else:
     color = (255, 255, 255)
     screen.fill(color)
