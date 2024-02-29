@@ -2,6 +2,7 @@
 Bunny Break: A puzzle game where the player is a bunny who's trying to break out of prison, solving three different puzzles (a memory game, a maze, and a sliding puzzle) in order to escape.
 
 REPL LINK FOR ANYONE WHO NEEDS IT: [https://replit.com/join/ftbcahgeuu-408419v](https://replit.com/join/ftbcahgeuu-408419)
+SCRIPT DOCUMENT: https://docs.google.com/document/d/1UWCkzWM8CWiJzCi_HMz3TX2RtIs2tJka8zxtDD0u-E0/edit
 
 ## Members
 - Elisa: project manager
