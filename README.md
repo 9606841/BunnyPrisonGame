@@ -15,7 +15,7 @@ SCRIPT DOCUMENT: https://docs.google.com/document/d/1UWCkzWM8CWiJzCi_HMz3TX2RtIs
 We hope to make this project a fun and relaxing game for people of all ages and backgrounds who enjoy solving puzzles with cute characters and an interesting storyline. We strive to achieve the good feeling that one experiences after solving a problem, paired with the adorable bunny and his prison-buddies to create an enjoyable gaming session for all players.
 
 ## UML
-![UML](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunnyPrison%20UML.png)
+![UML](https://github.com/9606841/BunnyPrisonGame/blob/main/images/UML.png?raw=true))
 
 ## GUI
 ![Mafia Bird GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/MafiaBird.png)
