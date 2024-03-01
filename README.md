@@ -24,3 +24,4 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 ![Bunny Idle GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Bunny%20Idle.gif?raw=true)
 ![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
 ![Prison Background](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonBackground.png?raw=true)
+![Bunny Walk Left](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunWalkLeft.gif?raw=true)
