@@ -4,7 +4,7 @@ from os import truncate
 import pygame
 from maze import Maze
 from slidePuzzle import slidePuzzle
-#from memoryGame import MemoryGame
+#from memoryGame import MemoryGame (need to fix this? find error)
 
 
 pygame.init()
@@ -37,6 +37,8 @@ while running:
     screen.blit(bg, (0, 0))
     pygame.display.flip()
 
+#edit while loop later
+  
 #  while gameStart == True:
  #   maze = Maze(1,1,True)
   #  maze.Maze()
