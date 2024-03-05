@@ -25,8 +25,9 @@ while running:
 
   if gameStart == True:
     #b.display
-    color = (255, 255, 255)
-    screen.fill((color))
+    bg = pygame.image.load('PrisonCellBg.png')
+    bg = pygame.transform.scale(bg, (500, 250))
+    screen.blit(bg, (0, 0))
     pygame.display.flip()
 
     #instantiate bunny class & first minigame
