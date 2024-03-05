@@ -1,8 +1,11 @@
 # Elisa Tandra, Kate Patterson, David Valdespino, Emily Tan
 
+from os import truncate
 import pygame
-#from bunny import Bunny
-#from pygame.constants import KEYDOWN, KEYUP
+from maze import Maze
+from slidePuzzle import slidePuzzle
+from memoryGame import MemoryGame
+
 
 pygame.init()
 
@@ -34,6 +37,13 @@ while running:
     screen.blit(bg, (0, 0))
     pygame.display.flip()
 
+  while gameStart == True:
+    maze = Maze(1,1,True)
+    maze.Maze()
+    #memoryGame = MemoryGame(True)
+    #memoryGame.memoryGame()
+    
+  
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       running = False
