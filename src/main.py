@@ -37,9 +37,9 @@ while running:
     screen.blit(bg, (0, 0))
     pygame.display.flip()
 
-  while gameStart == True:
-    maze = Maze(1,1,True)
-    maze.Maze()
+#  while gameStart == True:
+ #   maze = Maze(1,1,True)
+  #  maze.Maze()
     #memoryGame = MemoryGame(True)
     #memoryGame.memoryGame()
     
