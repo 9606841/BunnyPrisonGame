@@ -1,3 +1,5 @@
+# Elisa Tandra, Kate Patterson, David Valdespino, Emily Tan
+
 import pygame
 #from bunny import Bunny
 #from pygame.constants import KEYDOWN, KEYUP
