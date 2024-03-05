@@ -4,7 +4,7 @@ from os import truncate
 import pygame
 from maze import Maze
 from slidePuzzle import slidePuzzle
-from memoryGame import MemoryGame
+#from memoryGame import MemoryGame
 
 
 pygame.init()
