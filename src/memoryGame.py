@@ -15,6 +15,8 @@ class MemoryGame:
   #colors = (Color(199, 41, 10), Color(36, 102, 10), Color(81, 28, 97))
 #def mousedPressed:
 
+# display function?: meDisplay()
+
 import pygame
 import os
 
