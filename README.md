@@ -26,3 +26,4 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 ![Bunny Walk Left](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunWalkLeft.gif?raw=true)
 ![Bunny Walk Right](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunWalkRight.gif?raw=true)
 ![StartingImage](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonBg.png?raw=true)
+![Card1](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card1.png?raw=true)
