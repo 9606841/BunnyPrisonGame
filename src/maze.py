@@ -29,4 +29,9 @@ class Maze:
         
   # display the maze
   def maDisplay():
+
+    # maze wall
+    #wall = pygame.image.load('mazewall.png')
+    #wall = pygame.transform.scale(wall, (250, 250))
+    #screen.blit(wall, (125, 0))
     
