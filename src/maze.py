@@ -6,15 +6,16 @@ pygame.init()
 
 #maze class
 # render squares (path), collision detection for walls, create endpoints
+# use wall img as collision detection and then force bunny to walk on path (seprate image) only
 
 
 class Maze:
 
   def __init__(self, col, row, running):
-    self.col = col
-    self.row = row
-    self.thickness = 4
-    self.gridCells = 5
+    #self.col = col
+   # self.row = row
+    #self.thickness = 4
+    #self.gridCells = 5
     self.running = running
     
   def Maze(self):
@@ -25,4 +26,7 @@ class Maze:
         self.running = False
       #Cell(cols, rows, self.thickness) for rows in range(self.row)
       #for cols in range(self.col)
-
+        
+  # display the maze
+  def maDisplay():
+    
