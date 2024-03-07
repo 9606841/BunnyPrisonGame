@@ -29,7 +29,7 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 
 ## Backgrounds And Game Pieces (Maggie And Olivia) 
 ![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonCellBgOB.png?raw=true)
-![StartingImage](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonBg.png?raw=true)
+![StartingImage](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonBgOB.png?raw=true)
 ![Card1](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card1.png?raw=true)
 ![Card2](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card2.png?raw=true)
 ![Card3](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card3.png?raw=true)
