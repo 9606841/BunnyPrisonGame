@@ -21,8 +21,10 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 ![Mafia Bird GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/MafiaBird.png)
 ![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonCellBg.png?raw=true)
 ![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
+![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
+![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonCellBg.png?raw=true)
 
-## Bunny Animations And NPC's (Maggie) 
+## Bunny Animations And NPC's (Maggie And Olivia) 
 ![Bunny Walk Left](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunWalkLeft.gif?raw=true)
 ![Bunny Walk Right](https://github.com/9606841/BunnyPrisonGame/blob/main/images/BunWalkRight.gif?raw=true)
 ![Bunny Idle GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Bunny%20Idle.gif?raw=true)
@@ -30,7 +32,6 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 
 ## Backgrounds And Game Pieces (Maggie And Olivia) 
 ![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonCellBg.png?raw=true)
-![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
 ![StartingImage](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonBg.png?raw=true)
 ![Card1](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card1.png?raw=true)
 ![Card2](https://github.com/9606841/BunnyPrisonGame/blob/main/images/Card2.png?raw=true)
