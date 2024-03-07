@@ -20,7 +20,6 @@ We hope to make this project a fun and relaxing game for people of all ages and 
 ## GUI
 ![Mafia Bird GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/MafiaBird.png)
 ![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
-![PuzzleGUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PuzzleGUI.jpeg?raw=true)
 ![Cell GUI](https://github.com/9606841/BunnyPrisonGame/blob/main/images/PrisonCellBg.png?raw=true)
 
 ## Bunny Animations And NPC's (Maggie And Olivia) 
