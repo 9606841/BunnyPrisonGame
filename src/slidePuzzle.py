@@ -1,3 +1,5 @@
+# will work here if we have time
+
 import pygame
 class slidePuzzle:
   def __init__(self, running):
