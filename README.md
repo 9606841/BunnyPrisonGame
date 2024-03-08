@@ -1,5 +1,5 @@
 # BunnyBreak
-Bunny Break: A puzzle game where the player is a bunny who's trying to break out of prison, solving three different puzzles (a memory game, a maze, and a sliding puzzle) in order to escape.
+Bunny Break: A puzzle game where the player is a bunny who's trying to break out of prison, solving three different puzzles (a memory game and a maze) in order to escape.
 
 REPL LINK FOR ANYONE WHO NEEDS IT: [https://replit.com/join/ftbcahgeuu-408419v](https://replit.com/join/ftbcahgeuu-408419)
 
