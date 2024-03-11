@@ -6,7 +6,7 @@ pygame.init()
 
 #maze class
 # render squares (path), collision detection for walls, create endpoints
-# use wall img as collision detection and then force bunny to walk on path (seprate image) only
+# use wall img as collision detection and then force bunny to walk on path (seprate image) only - img might not work, will hv to render squares
 
 
 class Maze:
