@@ -17,23 +17,25 @@ class MemoryGame:
 
 #loading image backs cards setup
 def backDisplay(self):
+  back = pygame.Surface((self.width, self.height))
   if self.back == 0:
-    surface = pygame.display.set_mode(self.width,self.height)
+    back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card1.png')
-    surface.blit(backImg, (self.width, self.height))
+    back.blit(backImg, (self.width, self.height))
     pygame.display.flip
   elif self.back == 1:
-    surface = pygame.display.set_mode(self.width,self.height)
+    back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card2.png')
-    surface.blit(backImg, (self.width, self.height))
+    back.blit(backImg, (self.width, self.height))
     pygame.display.flip
   elif self.back == 2:
     surface = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card3.png')
-    surface.blit(backImg, (self.width, self.height))
+    back.blit(backImg, (self.width, self.height))
     pygame.display.flip
 
 def applyWords(self, word):
+  front = pygame.Surface((self.width, self.height))
   display_surface = pygame.display.set_mode((self.x, self.y))
   pygame.display.set_caption('BunnyBreak')
   #insert font
@@ -43,5 +45,10 @@ def applyWords(self, word):
   textRect = text.get_rect()
   textRect.center= (self.x//2, self.y//2)
   while True:
-    display_surface.fill((255,255,255))
-    display_surface.blit(text, textRect)
+    front.fill((255,255,255))
+    front.blit(text, textRect)
+
+def showCards(self):
+  back.blit(front,0,0)
+  screen.blit(back, (self.x,self.y))
+  pygame.display.update()
