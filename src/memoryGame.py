@@ -76,5 +76,5 @@ def showFront(self):
 def matching(self, currentCard):
   if currentCard:
     # code to match cards
-    # use either array list or word variable
+    # - use either array list or word variable
     # finish maze checkup and instantiate main.py
