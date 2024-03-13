@@ -1,5 +1,3 @@
-#from Cell import Cell
-
 import pygame
 
 pygame.init()
@@ -24,14 +22,11 @@ class Maze:
         pygame.display.set_caption('Maze, click to continue')
       elif pygame.mouse.get_pressed()[0]:
         self.running = False
-      #Cell(cols, rows, self.thickness) for rows in range(self.row)
-      #for cols in range(self.col)
-        
+    # maze wall
+    wall = pygame.image.load('mazewall.png')
+    wall = pygame.transform.scale(wall, (250, 250))  
+
   # display the maze
   def maDisplay():
-
-    # maze wall
-    #wall = pygame.image.load('mazewall.png')
-    #wall = pygame.transform.scale(wall, (250, 250))
-    #screen.blit(wall, (125, 0))
+    screen.blit(wall, (125, 0))
     
