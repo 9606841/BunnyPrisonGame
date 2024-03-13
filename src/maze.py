@@ -10,10 +10,8 @@ pygame.init()
 class Maze:
 
   def __init__(self, col, row, running):
-    #self.col = col
-   # self.row = row
-    #self.thickness = 4
-    #self.gridCells = 5
+    self.col = col
+    self.row = row
     self.running = running
     
   def Maze(self):
@@ -26,7 +24,7 @@ class Maze:
     #wall = pygame.image.load('mazewall.png')
     #wall = pygame.transform.scale(wall, (250, 250))  
     bl = pygame.Color(0, 0, 0)
-  ` col = pygame.draw.rect(screen, bl, (0, 0, 40, 20))
+  ` col = pygame.draw.rect(screen, bl, (0, 0, 20, 40))
   
   # display the maze
   def maDisplay():
