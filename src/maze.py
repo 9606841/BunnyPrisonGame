@@ -23,10 +23,11 @@ class Maze:
       elif pygame.mouse.get_pressed()[0]:
         self.running = False
     # maze wall
-    wall = pygame.image.load('mazewall.png')
-    wall = pygame.transform.scale(wall, (250, 250))  
+    #wall = pygame.image.load('mazewall.png')
+    #wall = pygame.transform.scale(wall, (250, 250))  
+  ` col = pygame.draw.rect()
 
   # display the maze
   def maDisplay():
-    screen.blit(wall, (125, 0))
-    
+    #screen.blit(wall, (125, 0))
+    pygame.display.flip()
