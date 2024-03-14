@@ -1,3 +1,5 @@
+#Elisa Tandra
+
 import pygame
 from pygame.locals import *
 # get code to show up on screen
