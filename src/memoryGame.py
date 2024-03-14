@@ -71,7 +71,7 @@ def showFront(self):
     front.fill(255)
     front.blit(text, textRect)
     pygame.display.update()
-    if currectCard = True
+    if currectCard == True
 
 def matching(self, currentCard):
   if currentCard:
