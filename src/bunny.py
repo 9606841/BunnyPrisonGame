@@ -34,3 +34,8 @@ class Bunny:
         # x -=1 ? need to move x, add speed, pos necessary?
         # include animations LATER
 
+  #display bunny
+  def bunDis(x, y):
+    self.x, self.y = x, y
+    bunIdle = pygame.image.load()
+    
