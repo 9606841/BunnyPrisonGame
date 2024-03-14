@@ -1,7 +1,7 @@
 import pygame
 
 pygame.init()
-
+screen = pygame.display.set_mode([500, 250])
 
 class Bunny:
 
@@ -36,6 +36,9 @@ class Bunny:
 
   #display bunny
   def bunDis(x, y):
-    self.x, self.y = x, y
+    self.x = x
+    self.y = y
     bunIdle = pygame.image.load('BunIdle.png')
     bunIdle = pygame.transform.scale(bunIdle, (200,200))
+    screen.blit(bunIdle, (self.x, self.y))
+    pygame.display.flip()
