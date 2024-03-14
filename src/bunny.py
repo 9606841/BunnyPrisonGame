@@ -35,7 +35,7 @@ class Bunny:
         # include animations LATER
 
   #display bunny
-  def bunDis(x, y):
+  def bunDis(self, x, y):
     self.x = x
     self.y = y
     bunIdle = pygame.image.load('BunIdle.png')
