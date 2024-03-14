@@ -37,5 +37,5 @@ class Bunny:
   #display bunny
   def bunDis(x, y):
     self.x, self.y = x, y
-    bunIdle = pygame.image.load('')
-    
+    bunIdle = pygame.image.load('BunIdle.png')
+    bunIdle = pygame.transform.scale(bunIdle, (200,200))
