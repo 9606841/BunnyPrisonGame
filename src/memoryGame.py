@@ -1,3 +1,5 @@
+#Kate Patterson, Elisa Tandra
+
 import pygame
 import random
 import subprocess
