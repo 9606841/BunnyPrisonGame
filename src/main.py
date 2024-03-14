@@ -16,6 +16,7 @@ bg = pygame.transform.scale(bg, (500, 250))
 screen.blit(bg, (0, 0))
 gameStart = False
 bun = Bunny(250, 125, 0, False)
+maze = Maze()
 pygame.display.flip()
 
 running = True
@@ -29,6 +30,8 @@ while running:
     bg = pygame.transform.scale(bg, (500, 250))
     screen.blit(bg, (0, 0))
     bun.bunDis(250, 75)
+    maze.draw()
+    maze.mazeRun()
     pygame.display.flip()
 
     #instantiate bunny class & first minigame
