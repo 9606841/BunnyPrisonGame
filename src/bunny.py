@@ -27,9 +27,8 @@ class Bunny:
 
     def move(self, x, y, pos, speed):
       self.x, self.y, self.pos, self.speed = x, y, pos, speed
-      if pygame.key.get_pressed():
-        if pygame.key.get_pressed()[pygame.K_LEFT]:
-          pass
+      if pygame.key.get_pressed()[pygame.K_LEFT]:
+        pass
 
         # x -=1 ? need to move x, add speed, pos necessary?
         # include animations LATER
