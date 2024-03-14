@@ -25,7 +25,6 @@ while running:
     gameStart = True
 
   if gameStart == True:
-    #b.display
     bg = pygame.image.load('PrisonCellBg.png')
     bg = pygame.transform.scale(bg, (500, 250))
     screen.blit(bg, (0, 0))
