@@ -1,32 +1,67 @@
 import pygame
+from pygame.locals import *
+# get code to show up on screen
+# create end game logic
+# adjust graphics/colors(designers)
+TILE_SIZE = 64
+WIDTH = TILE_SIZE * 4
+HEIGHT = TILE_SIZE * 4
 
-pygame.init()
+screen = pygame.display.set_mode((512, 512))
+empty = pygame.image.load("empty.png")
+wall = pygame.image.load("wall.png")
+goal = pygame.image.load("goal.png")
 
-#maze class
-# render squares (path), collision detection for walls, create endpoints
-# use wall img as collision detection and then force bunny to walk on path (seprate image) only - img might not work, will hv to render squares
+tiles = [empty, wall, goal]
 
-class Maze:
+maze = [
+    [0,0,0,0,0,0,1,1],
+    [0,0,1,0,0,1,1,0],
+    [0,0,0,0,0,0,0,0],
+    [0,0,1,1,0,1,0,0],
+    [0,0,1,0,1,0,0,1],
+    [1,0,1,0,1,1,0,0],
+    [0,1,0,0,0,1,0,1],
+    [0,0,0,0,0,0,0,2]
+]
 
-  def __init__(self, col, row, running):
-    self.col = col
-    self.row = row
-    self.running = running
-    
-  def Maze(self):
-    pygame.init()
-    if pygame.key.get_pressed()[pygame.K_SPACE] and self.running:
-        pygame.display.set_caption('Maze, click to continue')
-    elif pygame.mouse.get_pressed()[0]:
-        self.running = False
-    # maze wall
-    #wall = pygame.image.load('mazewall.png')
-    #wall = pygame.transform.scale(wall, (250, 250))  
-    bl = pygame.Color(0, 0, 0)
-    scr = 
-  ` col = pygame.draw.rect(scr, bl, (0, 0, 20, 40))
-  
-  # display the maze
-  def maDisplay():
-    #screen.blit(wall, (125, 0))
+surface = pygame.display.set_mode((500, 500))
+color = (22, 27, 41)
+
+def draw():
+    for row in range(len(maze)):
+        for column in range(len(maze[row])):
+            x = column * TILE_SIZE
+            y = row * TILE_SIZE
+            tile = pygame.transform.scale(tiles[maze[row][column]], (64,64))
+            screen.blit(tile, (x, y))
     pygame.display.flip()
+
+
+px = 20
+py = 20
+run = True
+while run:
+  screen.fill((255,255,255))
+  draw()
+  player = pygame.draw.ellipse(screen, color, (px, py, 20,20))
+  pygame.display.flip()
+  for event in pygame.event.get():
+    if event.type == KEYDOWN:
+      r = py
+      c = px
+      if event.key == K_UP:
+        r = r - TILE_SIZE
+      if event.key == K_DOWN:
+        r = r + TILE_SIZE
+      if event.key == K_LEFT:
+        c = c - TILE_SIZE
+      if event.key == K_RIGHT:
+        c = c + TILE_SIZE
+      tile = tiles[maze[r // TILE_SIZE][c // TILE_SIZE]]
+      if tile == empty:
+        px = c
+        py = r
+      elif tile == goal:
+        print('Well done')
+        exit()
