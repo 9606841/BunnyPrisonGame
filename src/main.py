@@ -28,7 +28,7 @@ while running:
     bg = pygame.image.load('PrisonCellBg.png')
     bg = pygame.transform.scale(bg, (500, 250))
     screen.blit(bg, (0, 0))
-    bun.bunDis(250)
+    bun.bunDis(250, 75)
     pygame.display.flip()
 
     #instantiate bunny class & first minigame
