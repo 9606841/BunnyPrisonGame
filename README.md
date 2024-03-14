@@ -11,10 +11,8 @@ To Do List:
 - Code for NPC class (TENTATIVE)
 
 ## Members
-- Elisa: project manager
+- Kate, Emily, Elisa, David: programmers
 - Maggie & Olivia: graphics/animation
-- David: tester
-- Kate & Emily: programmers
 
 ## Project Objective
 We hope to make this project a fun and relaxing game for people of all ages and backgrounds who enjoy solving puzzles with cute characters and an interesting storyline. We strive to achieve the good feeling that one experiences after solving a problem, paired with the adorable bunny and his prison-buddies to create an enjoyable gaming session for all players.
