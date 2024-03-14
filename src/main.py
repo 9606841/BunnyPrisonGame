@@ -3,6 +3,7 @@
 from os import truncate
 import pygame
 from maze import Maze
+from bunny import Bunny
 #from memoryGame import MemoryGame (need to fix this? find error)
 
 
@@ -14,7 +15,7 @@ bg = pygame.image.load('PrisonBg.png')
 bg = pygame.transform.scale(bg, (500, 250))
 screen.blit(bg, (0, 0))
 gameStart = False
-#b = Bunny(250, 125, 0, False)
+bun = Bunny(250, 125, 0, False)
 pygame.display.flip()
 
 running = True
@@ -27,6 +28,7 @@ while running:
     bg = pygame.image.load('PrisonCellBg.png')
     bg = pygame.transform.scale(bg, (500, 250))
     screen.blit(bg, (0, 0))
+    bun.bunDis(250)
     pygame.display.flip()
 
     #instantiate bunny class & first minigame
