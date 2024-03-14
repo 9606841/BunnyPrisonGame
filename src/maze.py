@@ -41,7 +41,7 @@ def draw():
 px = 20
 py = 20
 run = True
-while run:
+def mazeRun():
   screen.fill((255,255,255))
   draw()
   player = pygame.draw.ellipse(screen, color, (px, py, 20,20))
