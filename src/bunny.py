@@ -1,3 +1,5 @@
+#Emily Tan, Elisa Tandra
+
 import pygame
 
 pygame.init()
