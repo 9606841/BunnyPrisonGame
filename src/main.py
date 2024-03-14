@@ -1,53 +1,83 @@
-# Elisa Tandra, Kate Patterson, David Valdespino, Emily Tan
-
-from os import truncate
 import pygame
-from maze import Maze
-#from memoryGame import MemoryGame (need to fix this? find error)
+import random
+import subprocess
+subprocess.run(['pip', 'install', 'numpy'])
+# import numpy still errors
+import numpy
+class MemoryGame:
+  xcard_stack = numpy.array((0,37,74, 111, 148, 0, 37,74, 111, 148, 0, 37,74, 111, 148))
+  ycard_stack = numpy.array((0, 0, 0, 0, 0, 25, 25, 25, 25, 25, 75, 75, 75, 75, 75))
+  def __init__(self, back, word, width, height, x, y, currentCard):
+    self.back = random.randint(0,2)
+    self.word = word
+    self.width = 25
+    self.height = 37
+    self.x = x
+    self.y = y
+    currentCard = False
 
+#loading image backs cards setup
+def backDisplay(self):
+  back = pygame.Surface((self.width, self.height))
+  if self.back == 0:
+    back = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card1.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
+  elif self.back == 1:
+    back = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card2.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
+  elif self.back == 2:
+    surface = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card3.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
 
-pygame.init()
+def arrange(self):
+  back = pygame.Surface((self.width, self.height))
+  if self.back == 0:
+    back = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card1.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
+  elif self.back == 1:
+    back = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card2.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
+  elif self.back == 2:
+    surface = pygame.display.set_mode(self.width,self.height)
+    backImg = pygame.image.load('Card3.png')
+    back.blit(backImg, (self.width, self.height))
+    pygame.display.flip
+  back.blit(backImg, ((0,0)))
+  # backImg unbound error
+  pygame.display.update()
 
-screen = pygame.display.set_mode([500, 250])
-pygame.display.set_caption('Bunny Break')
-bg = pygame.image.load('PrisonBg.png')
-bg = pygame.transform.scale(bg, (500, 250))
-screen.blit(bg, (0, 0))
-gameStart = False
-#b = Bunny(250, 125, 0, False)
-pygame.display.flip()
+def showFront(self):
+  front = pygame.Surface((self.width, self.height))
+  display_surface = pygame.display.set_mode((self.x, self.y))
+  pygame.display.set_caption('BunnyBreak')
+  #insert font
+  color = (23, 68, 69)
+  font = pygame.font.SysFont('Arial', 30)
+  text = font.render(self.word, True, color)
+  textRect = text.get_rect()
+  textRect.center= (self.x//2, self.y//2)
+  mouseX, mouseY = pygame.mouse.get_pos()
+  if mouseX > self.x & mouseX < self.x + 25 & mouseY > self.y & mouseY < self.y + 37:
+    front.fill(255)
+    front.blit(text, textRect)
+    pygame.display.update()
+    if currectCard == True:
+      pass
 
-running = True
-while running:
-  if pygame.key.get_pressed()[pygame.K_SPACE]:
-    gameStart = True
+def matching(self, currentCard):
+  if currentCard:
+    pass
 
-  if gameStart == True:
-    #b.display
-    bg = pygame.image.load('PrisonCellBg.png')
-    bg = pygame.transform.scale(bg, (500, 250))
-    screen.blit(bg, (0, 0))
-    pygame.display.flip()
-
-    #instantiate bunny class & first minigame
-
-  else:
-    bg = pygame.image.load('PrisonBg.png')
-    bg = pygame.transform.scale(bg, (500, 250))
-    screen.blit(bg, (0, 0))
-    pygame.display.flip()
-
-#edit while loop later
-  
-#  while gameStart == True:
- #   maze = Maze(1,1,True)
-  #  maze.Maze()
-    #memoryGame = MemoryGame(True)
-    #memoryGame.memoryGame()
-    
-  
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      running = False
-
-pygame.quit()
+    # code to match cards
+    # - use either array list or word variable
+    # finish maze checkup and instantiate main.py
