@@ -1,4 +1,4 @@
-#Kate Patterson, Elisa Tandra
+# Kate Patterson, Elisa Tandra
 
 import pygame
 import random
@@ -16,7 +16,7 @@ class MemoryGame:
     self.height = 37
     self.x = x
     self.y = y
-    currentCard = False
+    self.currentCard = False
 
 #loading image backs cards setup
 def backDisplay(self):
@@ -25,17 +25,17 @@ def backDisplay(self):
     back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card1.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
+    pygame.display.flip()
   elif self.back == 1:
     back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card2.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
+    pygame.display.flip()
   elif self.back == 2:
     surface = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card3.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
+    pygame.display.flip()
 
 def arrange(self):
   back = pygame.Surface((self.width, self.height))
@@ -43,18 +43,18 @@ def arrange(self):
     back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card1.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
+    pygame.display.flip()
   elif self.back == 1:
     back = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card2.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
+    pygame.display.flip()
   elif self.back == 2:
     surface = pygame.display.set_mode(self.width,self.height)
     backImg = pygame.image.load('Card3.png')
     back.blit(backImg, (self.width, self.height))
-    pygame.display.flip
-  back.blit(backImg, ((0,0)))
+    pygame.display.flip()
+    back.blit(backImg, ((0,0)))
   # backImg unbound error
   pygame.display.update()
 
@@ -73,10 +73,4 @@ def showFront(self):
     front.fill(255)
     front.blit(text, textRect)
     pygame.display.update()
-    if currectCard == True
-
-def matching(self, currentCard):
-  if currentCard:
-    # code to match cards
-    # - use either array list or word variable
-    # finish maze checkup and instantiate main.py
+    self.currentCard = True
