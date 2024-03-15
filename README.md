@@ -3,8 +3,6 @@ Bunny Break: A puzzle game where the player is a bunny who's trying to break out
 
 REPL LINK: [https://replit.com/join/ftbcahgeuu-408419v](https://replit.com/join/ftbcahgeuu-408419)
 
-SCRIPT DOCUMENT: (https://docs.google.com/document/d/1UWCkzWM8CWiJzCi_HMz3TX2RtIs2tJka8zxtDD0u-E0/edit)
-
 To Do List:
 - Fix errors with displaying Maze and MemoryGame
 - Work on transitioning between minigames
