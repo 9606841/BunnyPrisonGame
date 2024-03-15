@@ -9,6 +9,7 @@ To Do List:
 - Fix errors with displaying Maze and MemoryGame
 - Work on transitioning between minigames
 - Code for NPC class (TENTATIVE)
+- Make end screen
 
 ## Members
 - Kate, Emily, Elisa, David: programmers
